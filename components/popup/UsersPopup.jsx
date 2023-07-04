@@ -84,7 +84,7 @@ const UsersPopup = (props) => {
         <div className="absolute w-full">
             {Object.values(users).map((user) => (
                 <div
-                    key={user.id} // Add a unique key prop to the parent div
+                    key={none} // Add a unique key prop to the parent div
                     onClick={() => handleSelect(user)}
                     className="flex items-center gap-4 rounded-xl hover:bg-c5 py-2 px-4 cursor-pointer"
                 >
